@@ -1,0 +1,16 @@
+.brand-container {
+  background-color: var(--accent-color);
+  color: var(--white);
+  padding: 1.5rem 0;
+  overflow: hidden;
+  font-family: var(--font-heading);
+}
+
+.strip-top ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

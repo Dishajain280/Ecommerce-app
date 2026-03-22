@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 4rem 5%;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-name h2 {
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px);
+}
